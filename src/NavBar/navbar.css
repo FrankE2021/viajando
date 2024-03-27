@@ -1,0 +1,62 @@
+/* Estilos generales para la barra de navegación */
+nav {
+    background: linear-gradient(to right, #000, #333); /* Degradado de negro a gris oscuro */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+nav a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background 0.3s ease; /* Transición suave para el degradado */
+}
+
+/* Estilos para el enlace activo */
+nav a.active {
+    background: linear-gradient(to right, #FFA500, #FF4500); /* Degradado de naranja a naranja más oscuro */
+    color: white;
+    border-radius:10px ;
+}
+
+/* Estilos para el hover de los enlaces */
+nav a:hover {
+    background: linear-gradient(to right, #FFA500, #FF4500); /* Degradado de naranja a naranja más oscuro al pasar el cursor */
+    color: white;
+    border-radius:10px ;
+    
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Estilos para el botón de logout */
+.logout {
+    background: linear-gradient(to right, #FFA500, #FF4500); /* Degradado de naranja a naranja más oscuro */
+    border: none;
+    color: white;
+    padding: 3px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Transición suave para el degradado */
+    border-radius: 5px; /* Bordes redondeados para un aspecto moderno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+/* Estilos para el hover del botón de logout */
+.logout:hover {
+    background: linear-gradient(to right, #FFA500, #FF4500); /* Degradado de naranja a naranja más oscuro al pasar el cursor */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más grande al pasar el cursor para un efecto de elevación */
+}

@@ -1,0 +1,58 @@
+/* login.css */
+
+
+/* Estilos para la sección de login */
+.login {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffa200a2, #ff11009a); /* Degradado de naranja a naranja más oscuro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login h1 {
+    margin-bottom: 20px;
+}
+
+.login label {
+    margin-bottom: 5px;
+}
+
+input {
+    color: orangered;
+    font-size: 1.1em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+}
+
+.botonRegistro {
+    background: linear-gradient(to right, #FFA500, #FF4500);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.botonRegistro:hover {
+    background: linear-gradient(to right, #FFA500, #FF4500);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

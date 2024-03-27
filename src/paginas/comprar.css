@@ -1,0 +1,27 @@
+.imagenGrande {
+    border-radius: 10px;
+    margin-left: 100px;
+    justify-content: center;
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+.precio {
+    border-radius: 5px;
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 30px;
+    color: #ff8000; 
+    margin: 8px;
+    padding: 5px;
+}   
+.contratar{
+    background-color: green;
+}
+.anular{
+    background-color: red;
+}
+.contratar,.anular{
+    position: relative;
+}

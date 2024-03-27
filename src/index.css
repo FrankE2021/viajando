@@ -1,21 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-   .boton {
-    font-size: 0.9em;
-    background-color: #ff7f00;
-    color: white; 
-    border-radius: 4px;    
-    border: none;
-    padding: 3px 9px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 10px 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-   }
-   
-   .boton:hover {
-    text-align: center;
-    background-color: #ffa07a; /* Naranja claro */
-   }
-   
+
+
+/* index.css */
+:root {
+   font-family: "Oswald", sans-serif;
+}
+
+

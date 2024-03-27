@@ -1,27 +1,88 @@
-.imagenGrande {
-    border-radius: 10px;
-    margin-left: 100px;
-    justify-content: center;
-    width: 500px;
-    max-width: 100%;
-    height: auto;
+
+/* Estilos generales para el componente Comprar */
+body {
+    font-family: "Oswald", sans-serif; /* Fuente moderna y legible */
+    background-color: #f4f4f4; /* Color de fondo claro */
+    color: #333; /* Color de texto oscuro para contraste */
+    margin: 0;
+    padding: 0;
 }
+.titulo{
+    font-family: "Oswald", sans-serif;
+    margin-top: 3px;
+    margin-bottom: 5px;
+
+}
+
+/* Estilos para la imagen grande y el precio */
+.imagenGrande {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    background: lightslategray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+    margin-bottom: 10px;
+}
+
 .precio {
-    border-radius: 5px;
-    position: absolute;
-    background-color: lightgoldenrodyellow;
-    text-align: center;
-    font-size: 30px;
-    color: #ff8000; 
-    margin: 8px;
-    padding: 5px;
-}   
+    background-color: orange;
+    color: #f4f4f4;
+    padding: 3px;
+    border-radius: 7px;
+    font-size: 30px white;
+    /*position: absolute; /* Posicionamiento absoluto para el botón */
+    top: 175px; /* Ajusta según sea necesario */
+    left: 13%; /* Ajusta según sea necesario */
+    z-index: 1;
+}
+
+/* Estilos para los botones */
+.boton {
+    background-color: #FFA500; /* Naranja cálido para los botones */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+    border-radius: 5px; /* Bordes redondeados para un aspecto moderno */
+}
+
+.boton:hover {
+    background-color: #FF4500; /* Naranja más oscuro al pasar el cursor */
+}
 .contratar{
     background-color: green;
+    /*position: absolute; /* Posicionamiento absoluto para el botón */
+    top: 175px; /* Ajusta según sea necesario */
+    right: 15px; /* Ajusta según sea necesario */
+    z-index: 1; /* Asegura que el botón esté por encima de la imagen */
 }
 .anular{
     background-color: red;
+    /*position: absolute; /* Posicionamiento absoluto para el botón */
+    top: 175px; /* Ajusta según sea necesario */
+    right: 15px; /* Ajusta según sea necesario */
+    z-index: 1;
 }
-.contratar,.anular{
-    position: relative;
+.volver{
+    margin-top: 5px;
+}
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .imagenGrande {
+        padding: 5px;
+    }
+
+    .precio {
+        font-size: 30px ;
+        
+    }
+
+    .boton {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
 }

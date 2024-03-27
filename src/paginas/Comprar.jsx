@@ -44,14 +44,14 @@ if(!destinoEncontrado){
 }
   return (
     <>
-    <h1>{nombre}</h1>
+    <h1 className="titulo">{nombre}</h1>
     <div className="servicios">{destinoEncontrado.servicio}</div>    
       <div className="imagenGrande">
         <div className="precio">{destinoEncontrado.precio}$</div>
         <img alt="decorative" src={imagen}/>
         {(!encontrado) && <button className="boton contratar" onClick={contratar}>Contratar</button>}
         {(encontrado) && <button className="boton anular" onClick={anular}>Anular</button>}
-        <div><button className="boton Volver" onClick={volver}>Volver</button></div>
+        <div><button className="boton volver" onClick={volver}>Volver</button></div>
     </div>
     
     </>
